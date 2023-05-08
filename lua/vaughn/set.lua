@@ -1,7 +1,7 @@
 vim.opt.guicursor="n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50"
 vim.opt.nu = true
 vim.opt.relativenumber = true
-
+vim.opt.cmdheight= 2
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -28,3 +28,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.opt.colorcolumn = "250"
+
+vim.keymap.set("n", "<C-j>", ":m +1<CR>==")
+vim.keymap.set("n", "<C-k>", ":m -2<CR>==")
+

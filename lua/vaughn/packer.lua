@@ -47,4 +47,5 @@ return require('packer').startup(function(use)
 use ('duane9/nvim-rg')
 use "terrortylor/nvim-comment"
 use 'navarasu/onedark.nvim'
+
 end)
