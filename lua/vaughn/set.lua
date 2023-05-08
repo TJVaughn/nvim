@@ -27,7 +27,7 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "250"
+vim.opt.colorcolumn = "500"
 
 vim.keymap.set("n", "<C-j>", ":m +1<CR>==")
 vim.keymap.set("n", "<C-k>", ":m -2<CR>==")
