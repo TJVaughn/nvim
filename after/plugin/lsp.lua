@@ -6,7 +6,8 @@ lsp.ensure_installed({
 	'tsserver',
 	'eslint',
 	'rust_analyzer',
-	'gopls'
+	'gopls',
+    'cssls'
 })
 
 lsp.setup()

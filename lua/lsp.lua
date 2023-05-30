@@ -6,7 +6,8 @@ lsp.ensure_installed({
   'tsserver',
   'rust_analyzer',
   'gopls',
-  'eslint'
+  'eslint',
+  'cssls'
 })
 
 -- Fix Undefined global 'vim'
@@ -66,7 +67,6 @@ lsp.format_on_save({
   servers = {
     ['lua_ls'] = {'lua'},
     ['rust_analyzer'] = {'rust'},
-    ['tsserver'] = {'typescript', 'javascript'}
   }
 })
 

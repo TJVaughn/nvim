@@ -33,3 +33,4 @@ vim.keymap.set("n", "<C-j>", ":m +1<CR>==")
 vim.keymap.set("n", "<C-k>", ":m -2<CR>==")
 
 vim.cmd [[autocmd BufWritePre * lua vim.lsp.buf.format()]]
+vim.cmd [[autocmd BufWritePre *.jsx,*.js,*.ts,*.tsx,*.css,*.scss Neoformat prettier]]
